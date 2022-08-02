@@ -9,21 +9,21 @@ HTML:
    "megasena-saved-games"
 
 JavaScript:
-() Criar estado da aplicação com objeto: 
+(x) Criar estado da aplicação com objeto: 
    { board: [], currentGame: [], savedGames: [] }
 
-() Criar e invocar função start
+(x) Criar e invocar função start
 
-() Focar na implementação dos dados e só depois
+(x) Focar na implementação dos dados e só depois
    na implementação da interface
 
-() Criar função createBoard e utilizar em start
-() Criar função newGame e utilizar em start
-() Criar função render e utilizar em newGame
+(x) Criar função createBoard e utilizar em start
+(x) Criar função newGame e utilizar em start
+(x) Criar função render e utilizar em newGame
 
-() Criar função renderBoard e utilizar em render
-() Criar função renderButtons e utilizar em render
-() Criar função renderSavedGames e utilizar em render
+(x) Criar função renderBoard e utilizar em render
+(x) Criar função renderButtons e utilizar em render
+(x) Criar função renderSavedGames e utilizar em render
 
 () Criar função renderNewGameButton() 
    e utilizar em renderButtons
