@@ -1,38 +1,17 @@
-Roteiro - megasena-v1
-=====================
-
+Roteiro - IMC
 (x) Clonar projeto-base
 
-HTML: 
-(x) Criar título
-(x) Criar 3 div's com id's "megasena-numbers", "megasena-buttons", 
-   "megasena-saved-games"
+HTML: (x) Montar HTML com 2 inputs do tipo texto e 1 botão (x) Utilizar id's nos inputs e botão (x) Inserir p para conter o resultado do cálculo
 
-JavaScript:
-(x) Criar estado da aplicação com objeto: 
-   { board: [], currentGame: [], savedGames: [] }
+CSS: (x) Estilizar inputs de forma que fiquem com o mesmo tamanho
 
-(x) Criar e invocar função start
+JavaScript: (x) Criar função start (x) Executar start() (x) Criar e implementar função calculateImc(weight, height)
 
-(x) Focar na implementação dos dados e só depois
-   na implementação da interface
+(x) Em start, obter os inputs e botão como variáveis com document.querySelector
 
-(x) Criar função createBoard e utilizar em start
-(x) Criar função newGame e utilizar em start
-(x) Criar função render e utilizar em newGame
+(x) Fazer com que botão calcule o IMC com addEventListener do tipo 'click'
 
-(x) Criar função renderBoard e utilizar em render
-(x) Criar função renderButtons e utilizar em render
-(x) Criar função renderSavedGames e utilizar em render
+(x) Tornar o programa mais dinâmico monitorando os inputs com addEventListener do tipo 'input'
 
-(x) Criar função renderNewGameButton() 
-   e utilizar em renderButtons
+(x) Tornar os inputs mais amigáveis utilizando o type="number" e utilizando o atributo step
 
-(x) Criar função renderRandomGameButton() 
-   e utilizar em renderButtons
-
-(x) Criar função renderSaveGameButton() 
-   e utilizar em renderButtons
-
-CSS:
-() Estilizar livremente
