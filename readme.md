@@ -25,13 +25,13 @@ JavaScript:
 (x) Criar função renderButtons e utilizar em render
 (x) Criar função renderSavedGames e utilizar em render
 
-() Criar função renderNewGameButton() 
+(x) Criar função renderNewGameButton() 
    e utilizar em renderButtons
 
-() Criar função renderRandomGameButton() 
+(x) Criar função renderRandomGameButton() 
    e utilizar em renderButtons
 
-() Criar função renderSaveGameButton() 
+(x) Criar função renderSaveGameButton() 
    e utilizar em renderButtons
 
 CSS:
