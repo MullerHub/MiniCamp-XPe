@@ -40,24 +40,24 @@ function handleButtonClick() {
 function resultIMC() {
   const messageEl = document.getElementById("imc-message")
   var text = ""
-  if (IMC < 0) {
-    text="você está me testando?"
+  if (IMC < 16) {
+    text="Valor inválido"
   } else if (IMC < 17) {
     text="você está muito abaixo do peso"
   } else if (IMC >= 17 && IMC <= 18.49) {
     text="Abaixo do peso"
   } else if (IMC >= 18.5 && IMC < 25) {
-    text="Peso normal"
+    text="Este valor considera que você está na faixa de Peso normal"
   } else if (IMC >= 25 && IMC < 30) {
-    text="Acima do peso"
+    text="Este valor considera que você está Acima do peso"
   } else if (IMC >= 30 && IMC < 35) {
-    text="Obesidade grau I"
+    text="Este valor considera que você está na faixa de Peso: Obesidade grau I"
   } else if (IMC >= 35 && IMC <= 40) {
-    text="Obesidade grau II"
+    text="Este valor considera que você está na faixa de Peso Obesidade grau II"
   } else if (IMC > 40 && IMC <= 60) {
-    text="Obesidade grau III"
+    text="Este valor considera que você está na faixa de Peso Obesidade grau III"
   } else if (IMC >= 60) {
-    text="Por favor, faça uma dieta e cuide da sua saúde"
+    text="Beba água e cuide da sua saúde"
   }
 
   messageEl.innerText = text

@@ -6,7 +6,6 @@
   --color--fundo: rgba(255, 104, 129, 0.873);
   --color-input: violet;
   --color-text: rgb(99, 0, 0);
-
 }
 
 body {
@@ -38,11 +37,17 @@ button {
   border: 2px solid var(--color--fundo);
   border-radius: 5px;
   margin-top: 1rem;
-  padding: .1rem .4rem;
+  padding: 0.1rem 0.4rem;
 }
 
 button:active {
   transform: scale(0.98);
   background-color: rgb(255, 0, 255);
+}
 
+span {
+  max-width: 100vw;
+  align-items: center;
+  display: flex;
+  padding: 2rem 0;
 }
