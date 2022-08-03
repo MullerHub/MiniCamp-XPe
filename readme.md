@@ -7,5 +7,4 @@ Roteiro - Desafios
 
 (x) Finalizar Mega-Sena-V2
 
-![image](https://user-images.githubusercontent.com/105472842/182501632-a90bf719-b925-459a-9e25-1c3a5a4b1540.png)
-
+![image](https://user-images.githubusercontent.com/105472842/182501666-96aaf3ad-d839-4928-a934-19c8526a7ac1.png)
